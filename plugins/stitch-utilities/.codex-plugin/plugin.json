@@ -1,7 +1,7 @@
 {
   "name": "stitch-utilities",
   "version": "1.0.0",
-  "description": "Design utilities for Google Stitch: generate DESIGN.md specs, enhance prompts, run stitch-loop workflows, and apply premium design standards.",
+  "description": "Design utilities for Google Stitch: generate DESIGN.md specs, create SITE.md constitutions, enhance prompts, and run stitch-loop workflows.",
   "author": {
     "name": "google-labs-code"
   },
@@ -13,6 +13,7 @@
     "design-system",
     "prompt-engineering",
     "design-md",
+    "site-md",
     "website-generation",
     "ui-standards"
   ],
@@ -20,7 +21,7 @@
   "interface": {
     "displayName": "Stitch Utilities",
     "shortDescription": "Utilities for Stitch design work",
-    "longDescription": "Use supporting Google Stitch utilities to generate DESIGN.md specs, enhance UI prompts, run multi-page stitch-loop workflows, and apply premium design standards.",
+    "longDescription": "Use supporting Google Stitch utilities to generate DESIGN.md specs, create SITE.md project constitutions, enhance UI prompts, and run multi-page stitch-loop workflows.",
     "developerName": "google-labs-code",
     "category": "Productivity",
     "capabilities": [
@@ -30,6 +31,7 @@
     "websiteURL": "https://github.com/google-labs-code/stitch-skills",
     "defaultPrompt": [
       "Generate a DESIGN.md for this Stitch project",
+      "Generate a SITE.md for my website requirements",
       "Enhance this rough UI prompt for Stitch",
       "Build a multi-page website with stitch-loop"
     ],
